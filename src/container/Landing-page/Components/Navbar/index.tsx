@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Navbar = () => {
   return (
     <div>
@@ -22,6 +24,7 @@ const Navbar = () => {
             <a href="#contact" className="nav-link">
               Contact
             </a>
+            <Link style={{textDecoration: 'none'}} to={"/practice"}>Practice</Link>
           </div>
 
           {/* Sign In Button */}
