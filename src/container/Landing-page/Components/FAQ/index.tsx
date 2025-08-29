@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 const FAQSection = () => {
-    const [openFAQ, setOpenFAQ] = useState(null);
+    const [openFAQ, setOpenFAQ] = useState<number | null>(null);;
 
   const toggleFAQ = (index: number) => {
     setOpenFAQ(openFAQ === index ? null : index);

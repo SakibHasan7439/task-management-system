@@ -1,4 +1,3 @@
-import './App.css'
 import LandingPage from './container/Landing-page'
 
 function App() {
